@@ -1,0 +1,42 @@
+cantantes = ['2pac','Drake','Bad Bunny','julio iglesias']
+numeros  = [1,2,5,8,3,4]
+
+# Ordenar
+# print(numeros)
+# numeros.sort()
+# print(numeros)
+
+# Añadir elementos
+cantantes.append("Natos y Waor")
+
+cantantes.insert(1,"David Bisbal ")
+#print(cantantes)
+
+#Eliminar elementos
+cantantes.pop(1)
+
+cantantes.remove('Bad Bunny')
+#print(cantantes)
+
+# Dar la vuelta
+print(numeros)
+numeros.reverse()
+print(numeros)
+
+# Buscar dentro de una lista
+print('Drake'in cantantes)
+
+# Contr elementos
+print(cantantes)
+print(len(cantantes))
+
+# Cuantas veces aparece un elemento
+numeros.append(8)
+print(numeros.count(8))
+
+ # Conseguir indiceç
+print(cantantes.index("Drake")) 
+
+# Unir listas
+cantantes.extend(numeros)
+print(cantantes)
